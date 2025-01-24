@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-
 class Pessoa extends Component {
     render() {
         return (
@@ -9,12 +8,12 @@ class Pessoa extends Component {
                 
                 
                 <Text style={styles.pessoa}
-                ///Pessoa já tem aquela propriedade data que passamos no component que recebe a pessoa, então já chamamos direto com o this.props.
+                ///Pessoa já tem aquela propriedade data que passamos no component que recebe a pessoa,
+                ///então já chamamos direto com o this.props.
                 >Nome: {this.props.data.nome} </Text>
-                <Text style={styles.pessoa}>Idade: {this.props.data.idade} </Text>
-                <Text style={styles.pessoa}>Email: {this.props.data.email} </Text>
-            </View>
-        );
+                <Text style={styles.pessoa}>Idade: {this.props.data.idade}
+                 </Text><Text style={styles.pessoa}>Email: {this.props.data.email} </Text>
+            </View>        );
     }
 }
 

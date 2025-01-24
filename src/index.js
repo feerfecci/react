@@ -80,10 +80,20 @@ const styles = StyleSheet.create({
         flex: 1,
         marginTop: 30,
     },
-    texto: {
-        color: 'black',
-        fontSize: 30,
+
+    logo: {
+        textAlign: 'center',
+        fontWeight: 'bold',
+        fontSize: 28,
+
     },
-    btn: { backgroundColor: 'red', alignItems: 'center' },
-    btnText: { color: 'white' },
+    pizza: {
+        marginTop: 15,
+        fontSize: 28,
+        textAlign: 'center'
+    },
+
+
 })
+
+export default App;
